@@ -3,9 +3,7 @@ import java.util.Scanner;
 public class javafile {
 
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int number = reader.nextInt();
+        int number=100;
         System.out.println("You entered: " + number);
     }
 }
